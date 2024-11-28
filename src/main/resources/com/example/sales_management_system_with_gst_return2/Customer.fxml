@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sales_management_system_with_gst_return2.Customer">
+   <children>
+      <Button fx:id="delete_button" alignment="CENTER" layoutX="544.0" layoutY="357.0" mnemonicParsing="false" onAction="#delete" prefHeight="38.0" prefWidth="90.0" text="Delete">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="save_button" alignment="CENTER" layoutX="544.0" layoutY="406.0" mnemonicParsing="false" onAction="#savechanges" prefHeight="38.0" prefWidth="90.0" text="Save">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="modify_button" alignment="CENTER" layoutX="544.0" layoutY="311.0" mnemonicParsing="false" onAction="#modifyclick" prefHeight="38.0" prefWidth="90.0" text="Modify">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" prefHeight="73.0" prefWidth="698.0" text="CUSTOMER INFO" underline="true">
+         <font>
+            <Font name="System Bold" size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="137.0" prefHeight="25.0" prefWidth="156.0" text="Customer Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customername_textfield" layoutX="287.0" layoutY="137.0" prefHeight="25.0" prefWidth="278.0" />
+      <Label layoutX="123.0" layoutY="225.0" prefHeight="25.0" prefWidth="156.0" text="Address">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customeraddress_textfield" layoutX="287.0" layoutY="225.0" prefHeight="25.0" prefWidth="278.0" />
+      <Label layoutX="123.0" layoutY="265.0" prefHeight="25.0" prefWidth="156.0" text="State">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="304.0" prefHeight="25.0" prefWidth="156.0" text="GSTIN">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customergstin_textfield" layoutX="287.0" layoutY="304.0" prefHeight="25.0" prefWidth="223.0" />
+      <Label layoutX="123.0" layoutY="182.0" prefHeight="25.0" prefWidth="156.0" text="PhoneNo.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerphoneno_textfield" layoutX="287.0" layoutY="182.0" prefHeight="25.0" prefWidth="165.0" />
+      <ComboBox fx:id="customerstate_combobox" layoutX="287.0" layoutY="265.0" prefHeight="25.0" prefWidth="183.0" />
+      <Label layoutX="123.0" layoutY="343.0" prefHeight="25.0" prefWidth="156.0" text="Opening Balance">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customeropbl_textfield" layoutX="287.0" layoutY="343.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label fx:id="searchcustomer_label" layoutX="123.0" layoutY="101.0" prefHeight="25.0" prefWidth="156.0" text="Search Customer Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="searchcustomer_combobox" editable="true" layoutX="287.0" layoutY="101.0" onAction="#selectedcustomer" prefHeight="25.0" prefWidth="278.0" />
+      <Label layoutX="58.0" layoutY="425.0" text="Rohan Naithani" />
+   </children>
+</AnchorPane>

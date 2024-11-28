@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sales_management_system_with_gst_return2.Category">
+   <children>
+      <Label alignment="CENTER" layoutX="168.0" layoutY="37.0" prefHeight="73.0" prefWidth="264.0" text="Product Category">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="111.0" layoutY="212.0" prefHeight="25.0" prefWidth="115.0" text="Category Name" />
+      <TextField fx:id="categoryname_fieldbox" layoutX="225.0" layoutY="212.0" prefHeight="25.0" prefWidth="264.0" />
+      <Button fx:id="categoryadd_button" layoutX="432.0" layoutY="327.0" mnemonicParsing="false" onAction="#savechanges" prefHeight="36.0" prefWidth="103.0" text="ADD">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="categorydelete_button" layoutX="45.0" layoutY="281.0" mnemonicParsing="false" onAction="#delete" prefHeight="36.0" prefWidth="103.0" text="Delete">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="categorymodify_button" layoutX="45.0" layoutY="327.0" mnemonicParsing="false" onAction="#modify" prefHeight="36.0" prefWidth="103.0" text="Modify">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="searchcategory_label" alignment="CENTER" layoutX="111.0" layoutY="163.0" prefHeight="25.0" prefWidth="115.0" text="Search Category" />
+      <ComboBox fx:id="categorysearch_combobox" editable="true" layoutX="225.0" layoutY="163.0" onAction="#selectedCategory" prefHeight="25.0" prefWidth="264.0" />
+      <Button fx:id="forcedelete_button" layoutX="432.0" layoutY="281.0" mnemonicParsing="false" onAction="#forcedelete" prefHeight="36.0" prefWidth="103.0" text="Force Delete">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="443.0" layoutY="369.0" text="Rohan Naithani" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="1098.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sales_management_system_with_gst_return2.MainController">
+   <children>
+      <Label fx:id="welcomeback_label" layoutX="401.0" layoutY="181.0" prefHeight="58.0" prefWidth="313.0" text="Welcome Back" underline="true">
+         <font>
+            <Font name="Californian FB Bold" size="47.0" />
+         </font>
+      </Label>
+      <Label fx:id="salesmanagement_label" layoutX="190.0" layoutY="14.0" prefHeight="58.0" prefWidth="766.0" text="Sales Management System With Gst Return" underline="true">
+         <font>
+            <Font name="Californian FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="company_button" layoutX="30.0" layoutY="309.0" mnemonicParsing="false" onAction="#oncompanyButtonClick" prefHeight="73.0" prefWidth="313.0" text="Company">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Label fx:id="Dashboard_Label" alignment="CENTER" layoutX="418.0" layoutY="88.0" prefHeight="73.0" prefWidth="261.0" text="Dashboard" underline="true" wrapText="true">
+         <font>
+            <Font name="Californian FB Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="product_button" layoutX="394.0" layoutY="309.0" mnemonicParsing="false" onAction="#onproductButtonClick" prefHeight="73.0" prefWidth="313.0" text="Product">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="productcategory_button" layoutX="752.0" layoutY="309.0" mnemonicParsing="false" onAction="#oncategoryButtonClick" prefHeight="73.0" prefWidth="313.0" text="Product Category">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="salesinvoice_button" layoutX="30.0" layoutY="439.0" mnemonicParsing="false" onAction="#onInvoiceButtonClick" prefHeight="73.0" prefWidth="313.0" text="Sales Invoice">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="purchaseinvoice_button" layoutX="394.0" layoutY="439.0" mnemonicParsing="false" onAction="#onPurchaseInvoiceButtonClick" prefHeight="73.0" prefWidth="313.0" text="Purchase Invoice">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="customerbutton" layoutX="752.0" layoutY="439.0" mnemonicParsing="false" onAction="#oncustomerButtonClick" prefHeight="73.0" prefWidth="313.0" text="Customer">
+         <font>
+            <Font name="Californian FB Bold" size="35.0" />
+         </font>
+      </Button>
+      <Label layoutX="868.0" layoutY="559.0" text="Rohan Naithani" />
+   </children>
+</Pane>
