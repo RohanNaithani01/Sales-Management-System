@@ -1,0 +1,11 @@
+use salesmanagementdata;
+INSERT INTO productcategory (catname) VALUES ('Grocery');
+INSERT INTO productcategory (catname) VALUES ('Electronics');
+INSERT INTO productcategory (catname) VALUES ('Clothing');
+INSERT INTO productcategory (catname) VALUES ('Home & Kitchen');
+INSERT INTO productcategory (catname) VALUES ('Health & Beauty');
+INSERT INTO productcategory (catname) VALUES ('Sports & Outdoors');
+INSERT INTO productcategory (catname) VALUES ('Books & Stationery');
+INSERT INTO productcategory (catname) VALUES ('Toys & Games');
+insert into productcategory (catname) Values ('Fruits');
+insert into productcategory (catname) Values ('Beverage');
